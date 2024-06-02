@@ -1,0 +1,30 @@
+.container{
+    max-width: 1248px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main_categories{
+    margin-top: 53px;
+}
+.main_categories .container{
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    padding: 9px 0;
+}
+.main_categories ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main_categories a{
+    color: #555;
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}

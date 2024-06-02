@@ -1,0 +1,64 @@
+.container{
+    max-width: 1312px;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero_box{
+    width: 100%;
+    background-color: #FEB786;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+.left_side h1{
+    color: #5C1B05;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 46.8px; /* 130% */
+    margin-bottom: 8px;
+}
+.left_side h3{
+    color: #5C1B05;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.1px; /* 130% */
+    margin-bottom: 24px;
+}
+.shop{
+    width: 144px;
+    border: 1px solid #5C1B05;
+    background-color: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 0px 0px 0px #333 inset;
+    color: #5C1B05;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.8px; /* 130% */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    text-decoration: none;
+}
+.right_side{
+    display: flex;
+}
+.card_head a{
+    color: #5C1B05;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20.8px; /* 130% */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,102 @@
+.header_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    align-items: center;
+}
+.right_side{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+.category{
+    border: none;
+    outline: none;
+    width: 94px;
+    color: #555;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    text-wrap: wrap;
+    font-weight: 400;
+    line-height: 14px; /* 107.692% */
+}
+.search_wrapper{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.search_box{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.search{
+    width: 600px;
+    height: 40px;
+    border: 2px solid #41413F;
+    display: flex;
+    align-items: center;
+    padding: 10px 17px;
+    gap: 13px;
+    border-right: none;
+}
+.search button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.search input{
+    border: none;
+    outline: none;
+    width: 95%;
+    color: #383737;
+    font-family: ABeeZee;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.search input::placeholder{
+    color: #767676;
+    font-family: ABeeZee;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.search_box .category{
+    width: 160px;
+    height: 40px;
+    border: 2px solid #41413F;
+    border-left: 1px solid #C7C7C7;
+    padding: 0 17px;
+    text-wrap: wrap;
+}
+.search_button{
+    width: 169px;
+    height: 40px;
+    background: #3665F3;
+    border: 1px solid #0654BA;
+    transition: background-color .2s ease;
+    color: #FFF;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+}
+.search_button:hover{
+    background-color: #fff;
+}
+.advanced_search{
+    color: #767676;
+    font-family: ABeeZee;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 400% */
+    text-decoration: none;
+}

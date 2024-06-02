@@ -1,0 +1,73 @@
+.container{
+    max-width: 1248px;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner{
+    margin-top: 50px;
+}
+.banner_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_left{
+    display: flex;
+}
+.banner_card{
+    height: 100%;
+    width: 453px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    padding: 20px 24px;
+}
+.banner_card span{
+    color: #707070;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px; /* 100% */
+    margin-bottom: 4px;
+}
+.banner_card img{
+    margin-bottom: 16px;
+}
+.banner_card h3{
+    color: #191919;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    margin-bottom: 7px;
+}
+.banner_card p{
+    color: #707070;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.02px; /* 143% */
+    margin-bottom: 12px;
+}
+.banner_card a{
+    width: 170px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 0px 0px 0px #333 inset;
+    color: #000;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.banner_right img{
+    height: 100%;
+}
